@@ -1,0 +1,38 @@
+水産,Thuỷ sản
+鉱業,Khai khoáng
+建設,Xây dựng
+食品,Thực phẩm
+繊維,Dệt
+パルプ・紙,Giấy
+化学,Hoá học
+医薬品,Y tế
+石油,Xăng dầu
+ゴム,Cao su
+窯業,Công nghiệp gốm
+鉄鋼,Gang thép
+非鉄金属製品,Phi kim
+機械,Cơ khí
+電気機器,Điện khí
+造船,Đóng tàu
+自動車,Xe hơi
+輸送用機器,Máy móc vận chuyển
+精密機器,Máy móc chính xác
+その他製造,Chế tạo khác
+商社,Thương mại
+小売業,Bán lẻ
+銀行,Ngân hàng
+証券,Chứng khoán
+保険,Bảo hiểm
+その他金融,Tài chính khác
+不動産,Bất động sản
+鉄道・バス,Đường sắt
+陸運,Vận tải
+海運,Vận tải đường biển
+空運,Vận tải đường không
+倉庫,Kho hàng
+通信,Hãng thông tấn
+電力,Điện lực
+ガス,Gas
+サービス,Dịch vụ
+農業,Nông nghiệp
+美・健康,Sức khoẻ làm đẹp

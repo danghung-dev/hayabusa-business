@@ -1,0 +1,1 @@
+mongorestore --db company_list company_list/

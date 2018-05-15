@@ -1,0 +1,29 @@
+
+.react-3d-carousel {
+    position: relative;
+    perspective: 1000px;
+}
+ .react-3d-carousel .carousel {
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+ .react-3d-carousel .carousel figure {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    line-height: 116px;
+    color: white;
+}
+
+ #content table {
+    position: absolute;
+}
+
+.react-3d-carousel   .prev {
+}
+video::-webkit-media-controls-panel {
+    display: flex !important;
+    opacity: 1 !important;
+}
