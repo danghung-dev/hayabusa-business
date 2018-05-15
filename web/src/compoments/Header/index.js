@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { DropdownButton, MenuItem } from "react-bootstrap";
+import { DropdownButton, MenuItem, Row, Col } from "react-bootstrap";
 import lang from "../../languages";
 import logo from "../../img/logo.png";
 import vietnamflag from "../../img/vietnam.png";
@@ -60,21 +60,13 @@ export default class Header extends React.Component {
   }
   render() {
     return (
-      <div
-        style={{ height: 50, backgroundColor: "yellow", margin: 0 }}
-        className="row"
-      >
-        <div className="col-xs-3">
+      <Row style={{ height: 50, backgroundColor: "yellow", margin: 0 }}>
+        <Col xs={3}>
           <Link to={`/`}>
-            <img
-              style={{ paddingLeft: 30, paddingTop: 15 }}
-              src={logo}
-              width="auto"
-              height={30}
-            />
+            <img style={{ paddingLeft: 30, paddingTop: 15 }} src={logo} width="auto" height={30} />
           </Link>
-        </div>
-        <div className="col-xs-9">
+        </Col>
+        <Col xs={9}>
           <div style={{ color: "black", textAlign: "right" }}>
             <DropdownButton
               id="language"
@@ -96,8 +88,8 @@ export default class Header extends React.Component {
               </MenuItem>
             </DropdownButton>
           </div>
-        </div>
-      </div>
+        </Col>
+      </Row>
     );
   }
 }
