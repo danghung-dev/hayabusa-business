@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import setting from "./setting";
-import MyCarousel from "./MyCarousel";
-import data from "./data";
-import logo from "../../img/logo.png";
-import "./style.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import setting from './setting';
+import MyCarousel from './MyCarousel';
+import data from './data';
+import logo from '../../img/logo.png';
+import './style.css';
 export default class Example extends React.Component {
   constructor(props) {
     super(props);
@@ -14,8 +14,8 @@ export default class Example extends React.Component {
       images: this.getImagesFromData(data[this.imageNumber].company),
       href: this.getHrefFromData(data[this.imageNumber].company),
       text: this.getTitleFromData(data[this.imageNumber].company),
-      layout: "prism",
-      ease: "linear",
+      layout: 'prism',
+      ease: 'linear',
       duration: setting.rotateDurarota
     };
     this.getImagesFromData = this.getImagesFromData.bind(this);
@@ -75,19 +75,19 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div style={{ width: "100%", marginTop: 20 }}>
+      <div style={{ width: '100%', marginTop: 20 }}>
         <div
           style={{
             width: 600,
             height: 150,
-            margin: "auto"
+            margin: 'auto'
           }}
         >
           <MyCarousel
             style={{ marginLeft: 140 }}
             key3D="abc"
-            width={300}
-            height={150}
+            width={500}
+            height={250}
             images={this.state.images}
             href={this.state.href}
             text={this.state.text}
